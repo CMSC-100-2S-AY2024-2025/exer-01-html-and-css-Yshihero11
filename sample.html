@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="navigationBar"> <img src="images/logo.png" alt="Logo" class="logo">
+        <div class="navSquare"><h3>PROJECTS</h3></div>
+        <div class="navSquare2"><h3>SKILLS</h3></div>
+        <div class="navSquare3"><h3>ABOUT ME</h3></div>
+    </div>
+
+    <div id="header"></div>
+
+    <div class="infoContainer">
+        <div class="infoBox">SKILLS
+            <p>I am a dedicated frontend developer skilled in HTML, CSS, and JavaScript. I can multitask while working on responsive design and Git. With strong management, leadership, and interpersonal skills, I collaborate effectively and strive to create the best user experiences. </p>
+        </div>
+        <div class="infoBox">ABOUT ME
+            <p>I'm Yshihero S. Norio, but you can call me Yshi. A graduating student from UP Los Baños, I aspire to be a Frontend Software Engineer, specializing in HTML, CSS, and JavaScript. I am passionate about building clean, responsive, and user-friendly web applications.</p>
+        </div>
+        <div class="infoBox">PROJECTS
+            <p>During my undergraduate years, One of the projects I created was a Student Management System in Python Language. Also, I created a 2D local fighthing game in JavaFX.</p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let backToTopButton = document.getElementById("backToTop");
+    
+            backToTopButton.addEventListener("click", function() {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+            });
+        });
+    </script>
+
+</body>
+<footer>
+    <div class="footBar">
+        <button id="backToTop">Back to Top</button>
+        <img src="images/logo2.png" alt="Logo2" class="logo2"> 
+        <div class="footerInfo"><p>| Block 1 Lot 32 Celina Homes IV Burgos, Rodriguez, Rizal, 1860 | 09394320863 |</p></div>
+    </div>
+</footer>
+</html>
